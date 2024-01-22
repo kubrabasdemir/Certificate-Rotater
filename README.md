@@ -16,6 +16,7 @@ Powershell script intended to be run as a scheduled task, which collects new cer
 
 ## Host Setup
 - Place autoacme.ps1, aa-lib.psm1, and conf.ini in a directory
+- Update conf.ini. Particularly server (LE_PROD or LE_STAGE), domain name, and contact email.
 - Create a scheduled task
 - **Action:** Run a program
 - **Program/script:** C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
