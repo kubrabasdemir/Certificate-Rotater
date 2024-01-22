@@ -13,7 +13,7 @@ Describe "Get-IniContent" {
             $IniContent | Should -BeOfType System.Collections.Hashtable
         }
 
-        It "Key-type is EC-256" {
+        It "Key-type is valid" {
             $IniContent["crt"]["key_type"] | Should -Match "ec-256|ec-384|2048|3072|4096"
         }
         
