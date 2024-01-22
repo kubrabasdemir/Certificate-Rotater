@@ -1,6 +1,4 @@
-﻿
-
-# Parse INI file and transmute to a hash table
+﻿# Parse INI file and transmute to a hash table
 function Get-IniContent ($FilePath) {
 
   # Check if configuration file exists
