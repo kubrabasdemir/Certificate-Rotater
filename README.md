@@ -15,7 +15,7 @@ Powershell script intended to be run as a scheduled task, which collects new cer
 - Add email alerts?
 
 ## Host Setup
-- Place autoacme.ps1, aa-lib.psm1, and conf.ini in a directory
+- Place aa.ps1, aa-lib.psm1, and conf.ini in a directory
 - Install Posh-ACME: `Install-Module -Name Posh-ACME`
 - Update conf.ini. Particularly server (LE_PROD or LE_STAGE), domain name, and contact email.
 - Create a scheduled task
