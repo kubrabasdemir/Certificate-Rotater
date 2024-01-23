@@ -2,7 +2,7 @@
 Powershell script intended to be run as a scheduled task, which collects new certificates from Let's Encrypt and installs them on Sophos XG appliances via the API.
 
 ## Progress and To-do's:
-![AutoACME](https://github.com/tachyon-technical/Certificate-Rotater/assets/157341889/49326078-b698-4d8c-a952-d11c286bfcbc)
+![image](https://github.com/tachyon-technical/Certificate-Rotater/assets/157341889/9cb4e23e-cbb1-4442-a8b4-4f5668d7960a)
 
 - Manipulate firewall rules via Sophos XG API
 - Upload certificates via Sophos XG API
